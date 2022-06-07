@@ -33,8 +33,8 @@ def update (screen, cells, size, with_progress=False):
 
 def main ():
     pygame.init()
-    height= 1500
-    width = 1200
+    height= 800
+    width = 600
     size= 15
     h= int(height/size)
     w= int(width/size)
