@@ -72,7 +72,7 @@ def update(frames):
     pyplot.imshow(arraylist [:,:,frames])
     
 
-anim = FuncAnimation(fig, update, frames=15, interval=50)
+anim = FuncAnimation(fig, update, frames=c, interval=50)
 
 pyplot.show()
 '''
